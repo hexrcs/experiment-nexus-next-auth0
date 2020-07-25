@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "prisma.prisma",
+    "prisma.vscode-graphql",
+    "eg2.vscode-npm-script",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
