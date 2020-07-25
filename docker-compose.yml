@@ -8,4 +8,4 @@ services:
       - ./temp/pgdata:/var/lib/postgresql/data
     environment:
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=my-dev-db
+      - POSTGRES_DB=auth-example-dev-db
