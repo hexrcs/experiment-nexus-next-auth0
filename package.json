@@ -16,7 +16,8 @@
     "deploy:prod": "now --prod",
     "storybook": "start-storybook -p 6006 -c .storybook",
     "build-storybook": "build-storybook",
-    "db:clean": "/bin/rm -rf temp && npx -q prisma migrate up --experimental"
+    "db:clean": "/bin/rm -rf temp && npx -q prisma migrate up --experimental",
+    "db:init": "npx -q prisma migrate up --experimental"
   },
   "keywords": [],
   "author": "Xiaoru Li",
